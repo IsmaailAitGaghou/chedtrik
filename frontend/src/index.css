@@ -2,13 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Mona Sans font - using system font fallback for now */
+/* To use Mona Sans, download the font files and host them locally */
 @font-face {
   font-family: 'Mona Sans';
-  src: url('https://cdn.jsdelivr.net/gh/github/mona-sans@main/fonts/variable/Mona-Sans.woff2') format('woff2');
+  src: local('Segoe UI'), local('Roboto'), local('Helvetica Neue'), local('Arial'), local('sans-serif');
   font-weight: 200 900;
-  font-stretch: 75% 125%;
   font-display: swap;
-  font-style: normal;
 }
 
 @layer base {
