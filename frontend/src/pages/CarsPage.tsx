@@ -12,7 +12,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select'
-import { Car, Filter, Search } from 'lucide-react'
+import { Car, Filter } from 'lucide-react'
 import api from '@/lib/api'
 import { Car as CarType, CarFilters } from '@/types'
 import { formatPrice } from '@/lib/utils'
